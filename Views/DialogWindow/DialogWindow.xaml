@@ -1,18 +1,18 @@
-﻿<Window x:Class="WpfApp1.Views.DialogWindow.DialogWindow"
+﻿<Window x:Class="WpfApp1.Views.DialogWindow.dialogWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WpfApp1.Views.DialogWindow"
         mc:Ignorable="d"
-        Title="DialogWindow" MaxHeight="158" MinHeight="158" MinWidth="350" MaxWidth="350">
+        Title="dialogWindow" MaxHeight="158" MinHeight="158" MinWidth="400" MaxWidth="400">
     <Grid>
         <Grid.RowDefinitions>
             <RowDefinition/>
             <RowDefinition/>
         </Grid.RowDefinitions>
 
-        <TextBlock x:Name="Text" Grid.Row="0" Text="Не верный логин или пароль" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="16"/>
+        <TextBlock x:Name="Text" Grid.Row="0" Text="Не верный логин или пароль" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="14" TextWrapping="WrapWithOverflow"/>
         <Button Content="Ок" Grid.Row="1" Background="#FF969696" HorizontalAlignment="Center" VerticalAlignment="Center" Width="172" Height="41" FontSize="20" Click="Button_Click"/>
 
     </Grid>

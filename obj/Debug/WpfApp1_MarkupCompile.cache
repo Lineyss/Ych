@@ -10,11 +10,11 @@ none
 false
 DEBUG;TRACE
 D:\project\Шарпы\Учебка\WpfApp1\App.xaml
-71182364884
+131663963371
 
-121970699980
+20-1927441595
 16290731675
-Views\DialogWindow\DialogWindow.xaml;Views\Pages\AuthP.xaml;Views\Pages\RegP.xaml;Views\Windows\AuthRegW.xaml;Views\Windows\WLibraryan.xaml;Views\Windows\WOrders.xaml;Views\Windows\WReader.xaml;
+Views\DialogWindow\dialogWindow.xaml;Views\Pages\PBooks.xaml;Views\Pages\PGetBook.xaml;Views\Pages\PHistoryGet.xaml;Views\Pages\PRole.xaml;Views\Pages\PUsers.xaml;Views\Pages\PWriteCod.xaml;Views\Pages\PWriteEmail.xaml;Views\Pages\PWriteNewPassword.xaml;Views\Windows\WAuth.xaml;Views\Windows\WAdminMain.xaml;Views\Windows\WMainNewPassword.xaml;Views\Windows\WUserMain.xaml;
 
 False
 

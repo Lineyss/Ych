@@ -66,71 +66,109 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="LibraryDataSet.cs">
+      <DependentUpon>LibraryDataSet.xsd</DependentUpon>
+    </Compile>
     <Compile Include="LibraryDataSet.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>LibraryDataSet.xsd</DependentUpon>
     </Compile>
-    <Compile Include="Views\DialogWindow\DialogWindow.xaml.cs">
-      <DependentUpon>DialogWindow.xaml</DependentUpon>
+    <Compile Include="Models\ModelDialog.cs" />
+    <Compile Include="Views\DialogWindow\dialogWindow.xaml.cs">
+      <DependentUpon>dialogWindow.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Views\Pages\Page1.xaml.cs">
-      <DependentUpon>Page1.xaml</DependentUpon>
+    <Compile Include="Views\Pages\PBooks.xaml.cs">
+      <DependentUpon>PBooks.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Views\Pages\RegP.xaml.cs">
-      <DependentUpon>RegP.xaml</DependentUpon>
+    <Compile Include="Views\Pages\PGetBook.xaml.cs">
+      <DependentUpon>PGetBook.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Views\Windows\WLibraryan.xaml.cs">
-      <DependentUpon>WLibraryan.xaml</DependentUpon>
+    <Compile Include="Views\Pages\PHistoryGet.xaml.cs">
+      <DependentUpon>PHistoryGet.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Views\Windows\WOrders.xaml.cs">
-      <DependentUpon>WOrders.xaml</DependentUpon>
+    <Compile Include="Views\Pages\PRole.xaml.cs">
+      <DependentUpon>PRole.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Views\Windows\WReader.xaml.cs">
-      <DependentUpon>WReader.xaml</DependentUpon>
+    <Compile Include="Views\Pages\PUsers.xaml.cs">
+      <DependentUpon>PUsers.xaml</DependentUpon>
     </Compile>
-    <Page Include="Views\DialogWindow\DialogWindow.xaml">
+    <Compile Include="Views\Pages\PWriteCod.xaml.cs">
+      <DependentUpon>PWriteCod.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Pages\PWriteEmail.xaml.cs">
+      <DependentUpon>PWriteEmail.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Pages\PWriteNewPassword.xaml.cs">
+      <DependentUpon>PWriteNewPassword.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Windows\WAuth.xaml.cs">
+      <DependentUpon>WAuth.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Windows\WAdminMain.xaml.cs">
+      <DependentUpon>WAdminMain.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Windows\WMainNewPassword.xaml.cs">
+      <DependentUpon>WMainNewPassword.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Windows\WUserMain.xaml.cs">
+      <DependentUpon>WUserMain.xaml</DependentUpon>
+    </Compile>
+    <Page Include="Views\DialogWindow\dialogWindow.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="Views\Pages\AuthP.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="Views\Pages\Page1.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="Views\Pages\RegP.xaml">
-      <Generator>MSBuild:Compile</Generator>
-      <SubType>Designer</SubType>
-    </Page>
-    <Page Include="Views\Windows\AuthRegW.xaml">
-      <Generator>MSBuild:Compile</Generator>
-      <SubType>Designer</SubType>
     </Page>
     <Compile Include="App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="Views\Pages\AuthP.xaml.cs">
-      <DependentUpon>AuthP.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="Views\Windows\AuthRegW.xaml.cs">
-      <DependentUpon>AuthRegW.xaml</DependentUpon>
-      <SubType>Code</SubType>
-    </Compile>
-    <Page Include="Views\Windows\WLibraryan.xaml">
-      <Generator>MSBuild:Compile</Generator>
+    <Page Include="Views\Pages\PBooks.xaml">
       <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="Views\Windows\WOrders.xaml">
-      <Generator>MSBuild:Compile</Generator>
+    <Page Include="Views\Pages\PGetBook.xaml">
       <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="Views\Windows\WReader.xaml">
-      <Generator>MSBuild:Compile</Generator>
+    <Page Include="Views\Pages\PHistoryGet.xaml">
       <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\Pages\PRole.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\Pages\PUsers.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\Pages\PWriteCod.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\Pages\PWriteEmail.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\Pages\PWriteNewPassword.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\Windows\WAuth.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\Windows\WAdminMain.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\Windows\WMainNewPassword.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\Windows\WUserMain.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
     </Page>
   </ItemGroup>
   <ItemGroup>

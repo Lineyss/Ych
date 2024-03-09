@@ -1,0 +1,32 @@
+﻿<Window x:Class="WpfApp1.Views.Windows.WAdminMain"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp1.Views.Windows"
+        mc:Ignorable="d"
+        Title="WAdminMain" Height="450" Width="800">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition Height="6*"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="1*"/>
+        </Grid.ColumnDefinitions>
+        
+        <Frame Name="Frame" Source="/Views/Pages/PBooks.xaml" Grid.Row="1" Grid.ColumnSpan="6" NavigationUIVisibility="Hidden"/>
+
+        <Button Grid.Column="0" Content="Роли" Background="#FFC350C3" FontSize="13.5" Margin="5,0,5,0" Click="Button_Click"/>
+        <Button Grid.Column="1" Content="Пользователи" Background="#FFC350C3" FontSize="13.5" Margin="5,0,5,0" Click="Button_Click_1"/>
+        <Button Grid.Column="2" Content="Книги" Background="#FFC350C3" FontSize="13.5" Margin="5,0,5,0" Click="Button_Click_2"/>
+        <Button Grid.Column="3" Content="История выдачи" Background="#FFC350C3" FontSize="11.5" Margin="5,0,5,0" Click="Button_Click_3"/>
+        <Button Grid.Column="4" Content="Взять книгу" Background="#FFC350C3" FontSize="13.5" Margin="5,0,5,0" Click="Button_Click_4"/>
+        <Button Grid.Column="5" Content="Выход" Background="Red" FontSize="13.5" Margin="5,0,5,0" Click="Button_Click_5"/>
+    </Grid>
+</Window>

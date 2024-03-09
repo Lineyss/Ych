@@ -17,9 +17,9 @@ namespace WpfApp1.Views.DialogWindow
     /// <summary>
     /// Логика взаимодействия для DialogWindow.xaml
     /// </summary>
-    public partial class DialogWindow : Window
+    public partial class dialogWindow : Window
     {
-        public DialogWindow()
+        public dialogWindow()
         {
             InitializeComponent();
         }

@@ -1,10 +1,16 @@
 ﻿
 FD:\project\Шарпы\Учебка\WpfApp1\App.xaml;;
-FD:\project\Шарпы\Учебка\WpfApp1\Views\Pages\AuthP.xaml;;
-FD:\project\Шарпы\Учебка\WpfApp1\Views\Pages\RegP.xaml;;
-FD:\project\Шарпы\Учебка\WpfApp1\Views\Windows\AuthRegW.xaml;;
-FD:\project\Шарпы\Учебка\WpfApp1\Views\Windows\WLibraryan.xaml;;
-FD:\project\Шарпы\Учебка\WpfApp1\Views\Windows\WOrders.xaml;;
-FD:\project\Шарпы\Учебка\WpfApp1\Views\Windows\WReader.xaml;;
-FD:\project\Шарпы\Учебка\WpfApp1\Views\DialogWindow\DialogWindow.xaml;;
+FD:\project\Шарпы\Учебка\WpfApp1\Views\DialogWindow\dialogWindow.xaml;;
+FD:\project\Шарпы\Учебка\WpfApp1\Views\Pages\PBooks.xaml;;
+FD:\project\Шарпы\Учебка\WpfApp1\Views\Pages\PHistoryGet.xaml;;
+FD:\project\Шарпы\Учебка\WpfApp1\Views\Pages\PRole.xaml;;
+FD:\project\Шарпы\Учебка\WpfApp1\Views\Pages\PUsers.xaml;;
+FD:\project\Шарпы\Учебка\WpfApp1\Views\Pages\PWriteCod.xaml;;
+FD:\project\Шарпы\Учебка\WpfApp1\Views\Pages\PWriteEmail.xaml;;
+FD:\project\Шарпы\Учебка\WpfApp1\Views\Pages\PWriteNewPassword.xaml;;
+FD:\project\Шарпы\Учебка\WpfApp1\Views\Windows\WAuth.xaml;;
+FD:\project\Шарпы\Учебка\WpfApp1\Views\Windows\WAdminMain.xaml;;
+FD:\project\Шарпы\Учебка\WpfApp1\Views\Windows\WMainNewPassword.xaml;;
+FD:\project\Шарпы\Учебка\WpfApp1\Views\Windows\WUserMain.xaml;;
+FD:\project\Шарпы\Учебка\WpfApp1\Views\Pages\PGetBook.xaml;;
 
